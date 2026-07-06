@@ -2,11 +2,11 @@
   hosts: local
   connection: local
   vars:
-    NAME: "Jagadeesh"
+    Course: "Jagadeesh"
     Experience: "2 years"
   tasks:
   - name: print variables
     vars:
      Experience: "4 years"
     ansible.builtin.debug:
-      msg: "Hi i am {{Name}} i have {{Experience}}"
+      msg: "Hi i am {{Course}} i have {{Experience}}"
