@@ -1,6 +1,6 @@
 - name: Task level variables
   hosts: local
-  conncetion: local
+  connection: local
   vars:
     NAME: "Jagadeesh"
     Experience: "2 years"
