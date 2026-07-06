@@ -1,4 +1,4 @@
-- nmae : Ping the server
+- name : Ping the server
   hosts : local
   connectio: local 
   tasks :
