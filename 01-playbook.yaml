@@ -1,6 +1,6 @@
 - name : Ping the server
   hosts : local
-  connectio: local 
+  connection: local 
   tasks :
    - name: Ping the web server 
      anisble.builtin.ping :
