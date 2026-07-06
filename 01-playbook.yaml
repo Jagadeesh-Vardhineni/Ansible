@@ -3,4 +3,4 @@
   connection: local 
   tasks :
    - name: Ping the web server 
-     anisble.builtin.ping :
+      anisble.builtin.ping :
