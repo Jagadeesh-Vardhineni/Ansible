@@ -1,6 +1,6 @@
 - name: Play level varibales
   hosts: local
-  conncetion: local
+  connection: local
   vars:
     COURSE: "Devops with Jagadeesh"
     DURATION: "140hrs"
