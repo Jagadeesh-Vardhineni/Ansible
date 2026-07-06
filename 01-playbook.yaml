@@ -1,0 +1,6 @@
+- nmae : Ping the server
+  hosts : local
+  connectio: local 
+  tasks :
+   - name: Ping the web server 
+     anisble.builtin.ping :
