@@ -9,4 +9,4 @@
     vars:
      Experience: "4 years"
     ansible.builtin.debug:
-      msg: "Hi i am {{Name}} i have {{Experience}}
+      msg: "Hi i am {{Name}} i have {{Experience}}"
