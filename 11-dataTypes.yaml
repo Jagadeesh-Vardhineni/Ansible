@@ -1,0 +1,20 @@
+- name: Data types
+  hosts: local
+  connection: local
+  vars:
+    My_name: "Jagadeesh"
+    exp: 3
+    Details:
+      f_name: "Jagadeesh"
+      years: 29
+    Skills:
+      -Linux
+      -Shell
+      -Ansible
+    tasks:
+    - name: print variables
+      ansible.builtin.debug:
+      msg: |
+        My_name: {{My_name}}
+        Details: {{Details}}
+        Skills: {{Skills}}
