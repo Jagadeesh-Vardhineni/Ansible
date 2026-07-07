@@ -11,9 +11,9 @@
       -Linux
       -Shell
       -Ansible
-    tasks:
-    - name: print variables
-      ansible.builtin.debug:
+  tasks:
+  - name: print variables
+    ansible.builtin.debug:
       msg: |
         My_name: {{My_name}}
         Details: {{Details}}
