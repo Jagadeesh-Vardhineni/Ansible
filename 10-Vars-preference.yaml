@@ -10,6 +10,7 @@
     prompt: Please enter your name
     private: false
   tasks:
-  ansible.builtin.debug:
-    msg: "{{ComeFrom}}"
+  - name: print name
+    ansible.builtin.debug:
+      msg: "{{ComeFrom}}"
   
