@@ -1,0 +1,10 @@
+- name: Check a number less than 10 or not
+  hosts: local
+  connection: local
+  vars:
+    Number_of: 7
+  tasks:
+  - name: Checking the Condtion
+    ansible.built.debug:
+      msg: " Yes the given number  is less than 10"
+    when: Number_of < 10
