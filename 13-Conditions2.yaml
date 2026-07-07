@@ -5,6 +5,6 @@
     Number_of: 7
   tasks:
   - name: Checking the Condtion
-    ansible.built.debug:
+    ansible.builtin.debug:
       msg: " Yes the given number  is less than 10"
     when: Number_of<10
