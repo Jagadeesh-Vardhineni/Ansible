@@ -7,4 +7,4 @@
     register : user_outout
   - name: print output
     ansible.builtin.debug:
-      msg: {{ "user_outout" }}
+      msg: " {{ user_outout }} "
