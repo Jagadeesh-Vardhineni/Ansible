@@ -1,0 +1,15 @@
+- name: Variable preference
+  hosts: local
+  connection: local
+  vars:
+    ComeFrom: "Hi I am from  play level"
+  vars_files:
+    course.yaml
+  vars_prompt:
+    name: print name
+    prompt: Please enter your name
+    private: false
+  tasks:
+    ansible.builtin.debug:
+      msg: "{{ComeFrom}}"
+  
