@@ -8,9 +8,9 @@
       f_name: "Jagadeesh"
       years: 29
     Skills:
-      -Linux
-      -Shell
-      -Ansible
+    - Linux
+    - Shell
+    - Ansible
   tasks:
   - name: print variables
     ansible.builtin.debug:
