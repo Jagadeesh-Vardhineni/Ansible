@@ -7,4 +7,4 @@
   - name: Checking the Condtion
     ansible.built.debug:
       msg: " Yes the given number  is less than 10"
-    when: Number_of < 10
+    when: Number_of<10
